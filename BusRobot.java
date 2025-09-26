@@ -464,8 +464,6 @@ public class BusRobot extends Robot implements Runnable {
 
     // Rutas Lentas
     private void rutaLentaAzul() {
-        irStreet1();
-
         pickUpPassengers();
         if (currentPassengers == 0)
             return;
@@ -497,8 +495,6 @@ public class BusRobot extends Robot implements Runnable {
     }
 
     private void rutaLentaVerde() {
-        irStreet13();
-
         pickUpPassengers();
         if (currentPassengers == 0)
             return;
